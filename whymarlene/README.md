@@ -1,4 +1,4 @@
-1) ![](IMG_0571.JPG | width = 50% | height = 50%)
+1) ![](IMG_0571.JPG){:height="50%" width="50%"}
 
 2) Name: Yaritza Marlene Garcia Gomez, but I go by Marlene
 
