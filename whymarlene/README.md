@@ -1,4 +1,4 @@
-1) 
+1) ![](IMG_0571.JPG)
 
 2) Name: Yaritza Marlene Garcia Gomez, but I go by Marlene
 
