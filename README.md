@@ -1,7 +1,17 @@
 ![Bits of Good](/assets/header.png)
-# Bits of Good Bootcamp
+# Cohort Chow Chow 
 
-The Bits of Good Bootcamp is a MERN stack bootcamp that gives Georgia Tech students the skills and experience they need to make an impact with Bits of Good. Not a Tech student? You can find most of our curriculum is [available online](bitsofgood.org/bootcamp), or learn more about Bits of Good at [bitsofgood.org](https://bitsofgood.org)!
+## Motto
+"dignity and refinement above all"
+
+* [Jonathan Wu](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/ChowChow-jonathan)
+* [Ema Goh](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/ChowChow-Ema)
+* [Phoebe Wongphatarakul]
+* [Sania Shaikh]
+* [Vikas Barevadia](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/ChowChow-vikas)
+
+
+![Mascot](https://gfycat.com/detailedpolitehawaiianmonkseal-funny-puppy)
 
 ### License
 
