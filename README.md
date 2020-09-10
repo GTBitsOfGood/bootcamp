@@ -6,3 +6,6 @@ The Bits of Good Bootcamp is a MERN stack bootcamp that gives Georgia Tech stude
 ### License
 
 This repository is licensed under the [GNU GPLv3 License](/LICENSE.txt).
+
+
+![Image](https://img.pokemondb.net/artwork/large/vulpix.jpg)
