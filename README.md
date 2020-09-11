@@ -4,8 +4,8 @@
 I am the gatekeeper of my own destiny, and I will have my glory day in the hot sun.
 
 ## Cohort Names
--Carlo
--Jasmine
--Sahya
--Madeline
--Srishti
+- Carlo
+- Jasmine
+- Sahya
+- Madeline
+- Srishti
