@@ -1,8 +1,17 @@
-![Bits of Good](/assets/header.png)
-# Bits of Good Bootcamp
+# Cohort hypertextAssassins
 
-The Bits of Good Bootcamp is a MERN stack bootcamp that gives Georgia Tech students the skills and experience they need to make an impact with Bits of Good. Not a Tech student? You can find most of our curriculum is [available online](bitsofgood.org/bootcamp), or learn more about Bits of Good at [bitsofgood.org](https://bitsofgood.org)!
+## hypertextAssassins motto:
+        "[motto here]"
 
-### License
+* [Emily Layton](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/hypertextAssassins-Emily)
+* [Marlene Garcia]()
+* [Kirtana Mogili](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/hypertextAssassins-kirtana)
+* [Eashan Sinha](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/hypertextAssassins-Eashan)
+* [Carsen Miller]()
+* [Isha Palakurthy]()
 
-This repository is licensed under the [GNU GPLv3 License](/LICENSE.txt).
+![](image.png)
+
+
+
+
