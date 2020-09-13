@@ -11,7 +11,6 @@
 * [Harry S.E. Bae](https://github.com/harrysedev)
 * [Kelly Tran](https://github.com/kellytran3k)
 * [Lilly Zhu](https://github.com/lilliniunni)
-* [Neel Sandell](https://github.com/nsandell123)
 * Sanjana Balusu
 >>>>>>> fall-2020/8Bit-EmilyHodges
 
