@@ -8,7 +8,7 @@
 * [Kirtana Mogili](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/hypertextAssassins-kirtana)
 * [Eashan Sinha](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/hypertextAssassins-Eashan)
 * [Carsen Miller]()
-* [Isha Palakurthy]()
+* [Isha Palakurthy](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/hypertextAssassins-isha)
 
 ![](image.png)
 
