@@ -7,7 +7,7 @@
 ## Cohort Members
 * [Jonathan Wu](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/ChowChow-jonathan)
 * [Ema Goh](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/ChowChow-Ema)
-* [Phoebe Wongphatarakul]
+* [Phoebe Wongphatarakul](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/ChowChow-phoebe)
 * [Sania Shaikh]
 * [Vikas Barevadia](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/ChowChow-vikas)
 
