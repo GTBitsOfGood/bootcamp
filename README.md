@@ -8,4 +8,5 @@ send help
 * [Shree](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/terribletwos-Shree)
 * Evan
 * Vivian
-![Team Image](https://slack-files.com/T6VL1BSEA-F01ALHZCN03-3f303189b5) 
+
+![teamimage](/assets/teamimage.jpg)
