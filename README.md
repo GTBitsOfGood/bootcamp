@@ -7,6 +7,6 @@ send help
 * [Seife](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/terribletwos-Seife)
 * [Shree](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/terribletwos-Shree)
 * Evan
-* Vivian
+* [Vivian](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/terribletwos-vivian)
 
 ![teamimage](/assets/teamimage.jpg)
