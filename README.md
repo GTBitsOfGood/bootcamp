@@ -5,4 +5,4 @@ Hey Guys!
 - [Fareeda]
 - [Kimberly]
 - [Rita]
-- [Shruthi]
+- [Shruthi](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/corgi-shruthi)
