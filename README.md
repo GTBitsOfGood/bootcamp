@@ -10,7 +10,7 @@ Woof! XOXO
 * [Fareeda]
 * [Kimberly]
 * [Rita](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/corgi-rita)
-* [Shruthi]
+* [Shruthi](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/corgi-shruthi)
 
 ![Mascot](https://i.pinimg.com/originals/ca/78/99/ca78993a468a835197b2e340dc214cd1.jpg)
 
