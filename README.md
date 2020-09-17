@@ -15,8 +15,14 @@ Sparking joy one flame at a time \\(^ヮ^)/
 ### Our Dear Mascot: Calcifer
 ![Our Dear Mascot: Calcifer](assets/calcifer.png)
 
+
 ### License
 
 This repository is licensed under the [GNU GPLv3 License](/LICENSE.txt).
 
+<<<<<<< HEAD
 
+=======
+### Our Motto
+01000010 01111001 01110100 01100101
+>>>>>>> master
