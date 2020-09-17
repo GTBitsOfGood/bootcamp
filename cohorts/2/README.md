@@ -9,4 +9,4 @@ send help
 * [Evan](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/terribletwos-evan)
 * [Vivian](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/terribletwos-vivian)
 
-![teamimage](/teamimage.jpg)
+![teamimage](teamimage.jpg)
