@@ -1,13 +1,8 @@
-# Cohort The Fifth Element
+![Bits of Good](/assets/header.png)
+# Bits of Good Bootcamp
 
-## TFE's Motto
-I am the gatekeeper of my own destiny, and I will have my glory day in the hot sun.
+The Bits of Good Bootcamp is a MERN stack bootcamp that gives Georgia Tech students the skills and experience they need to make an impact with Bits of Good. Not a Tech student? You can find most of our curriculum is [available online](bitsofgood.org/bootcamp), or learn more about Bits of Good at [bitsofgood.org](https://bitsofgood.org)!
 
-## Cohort Names
-* [Carlo](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/TFE-Carlo)
-* [Jasmine Li](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/TFE-Jasmine)
-* [Sahya](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/TFE-sahya)
-* [Madeline](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/TFE-madeline)
-- Srishti
+### License
 
-![Mascot](https://img.favpng.com/9/8/19/vector-building-hand-png-favpng-8H0tr25ZsxvQfTV8GvccWXAEY.jpg)
+This repository is licensed under the [GNU GPLv3 License](/LICENSE.txt).
