@@ -12,15 +12,10 @@
 * [Kelly Tran](https://github.com/kellytran3k)
 * [Lilly Zhu](https://github.com/lilliniunni)
 * [Neel Sandell](https://github.com/nsandell123)
-* Sanjana Balusu
-I'm testing out something. 
-Something is cool.
-Therefore, I'm testing out cool. 
->>>>>>> fall-2020/8Bit-EmilyHodges
+* [Sanjana Balusu]
+
 
 ![Image](https://img.pokemondb.net/artwork/large/vulpix.jpg)
-=======
 
-=======
 
 
