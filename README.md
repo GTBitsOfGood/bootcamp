@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Cohort KAIRScares
 ## we KAIR about development but it Scares us too
 * [Ashwini](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/KAIRScares-ashwini)
