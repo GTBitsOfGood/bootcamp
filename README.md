@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ![Bits of Good](/assets/header.png)
 # Cohort 8Bit
 
