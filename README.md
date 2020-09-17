@@ -13,7 +13,7 @@ Sparking joy one flame at a time \\(^ヮ^)/
 * [Isha Palakurthy](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/hypertextAssassins-isha)
 
 ### Our Dear Mascot: Calcifer
-![Our Dear Mascot: Calcifer](assets/calcifer.png)
+![Our Dear Mascot: Calcifer](https://media.giphy.com/media/qKmWi9mfycx6E/giphy.gif)
 
 
 ### License
