@@ -1,12 +1,8 @@
-# Cohort TerribleTwos
-## Motto
-send help
-## Members
-* [Alice](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/terribletwos-Alice)
-* [Lidya](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/terribletwos-Lidya)
-* [Seife](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/terribletwos-Seife)
-* [Shree](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/terribletwos-Shree)
-* [Evan](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/terribletwos-evan)
-* [Vivian](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/terribletwos-vivian)
+![Bits of Good](/assets/header.png)
+# Bits of Good Bootcamp
 
-![teamimage](/assets/teamimage.jpg)
+The Bits of Good Bootcamp is a MERN stack bootcamp that gives Georgia Tech students the skills and experience they need to make an impact with Bits of Good. Not a Tech student? You can find most of our curriculum is [available online](bitsofgood.org/bootcamp), or learn more about Bits of Good at [bitsofgood.org](https://bitsofgood.org)!
+
+### License
+
+This repository is licensed under the [GNU GPLv3 License](/LICENSE.txt).
