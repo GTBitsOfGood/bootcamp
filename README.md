@@ -17,7 +17,7 @@ I'm testing out something.
 Something is cool.
 Therefore, I'm testing out cool. 
 >>>>>>> fall-2020/8Bit-EmilyHodges
-
+Testing
 ![Image](https://img.pokemondb.net/artwork/large/vulpix.jpg)
 =======
 
