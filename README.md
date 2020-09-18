@@ -1,19 +1,8 @@
 ![Bits of Good](/assets/header.png)
-# Cohort 8Bit
+# Bits of Good Bootcamp
 
+The Bits of Good Bootcamp is a MERN stack bootcamp that gives Georgia Tech students the skills and experience they need to make an impact with Bits of Good. Not a Tech student? You can find most of our curriculum is [available online](bitsofgood.org/bootcamp), or learn more about Bits of Good at [bitsofgood.org](https://bitsofgood.org)!
 
+### License
 
-### Our Motto
-01000010 01111001 01110100 01100101
-
-* [Emily Hodges](https://github.com/EmilySH21)
-* [Harry S.E. Bae](https://github.com/harrysedev)
-* [Kelly Tran](https://github.com/kellytran3k)
-* [Lilly Zhu](https://github.com/lilliniunni)
-* [Neel Sandell](https://github.com/nsandell123)
-* [Sanjana Balusu]
-
-
-![Image](https://img.pokemondb.net/artwork/large/vulpix.jpg)
-
-
+This repository is licensed under the [GNU GPLv3 License](/LICENSE.txt).
