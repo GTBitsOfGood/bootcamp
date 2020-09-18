@@ -9,7 +9,7 @@ Sparking joy one flame at a time \\(^ヮ^)/
 * [Marlene Garcia](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/hypertextAssassins-marlene)
 * [Kirtana Mogili](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/hypertextAssassins-kirtana)
 * [Eashan Sinha](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/hypertextAssassins-Eashan)
-* [Carsen Miller]()
+* [Carsen Miller](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/hypertextAssassins-carsen)
 * [Isha Palakurthy](https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/hypertextAssassins-isha)
 
 ### Our Dear Mascot: Calcifer
