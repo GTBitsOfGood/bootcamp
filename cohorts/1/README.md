@@ -21,5 +21,5 @@ Sparking joy one flame at a time \\(^ヮ^)/
 This repository is licensed under the [GNU GPLv3 License](/LICENSE.txt).
 
 
-### Our Motto
+### Bits of Good Motto
 01000010 01111001 01110100 01100101
