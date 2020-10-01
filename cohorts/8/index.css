@@ -1,0 +1,42 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-section {
+    width: 100vw;
+    height: 60vh;
+}
+
+.cohort-title {
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.rick-roll-btn{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 300px;
+    border-color: orange;
+    color: orange;
+    background-color: white;
+    transition-duration: 300ms;
+}
+
+.rick-roll-btn:hover{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 300px;
+    border-color: orange;
+    color: white;
+    background-color: orange;
+}
