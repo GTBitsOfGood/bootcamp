@@ -10,3 +10,21 @@ body .mascot {
     height: 700px; 
     justify-content:center;
 }
+.mainTitle {
+	color: purple;
+	font-family: impact;
+}
+
+.smallTitle {
+	font-family: "Lucida Console";
+}
+
+#motto {
+	color: yellow;
+	font-family: cursive;
+}
+
+#memberList {
+	font-family: "Brush Script MT";
+	font-size: 20
+}
