@@ -1,0 +1,12 @@
+body .title {
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+body .mascot {
+    display:flex;
+    width:1200px;
+    height: 700px; 
+    justify-content:center;
+}
