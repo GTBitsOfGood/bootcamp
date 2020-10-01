@@ -1,0 +1,14 @@
+h1 {
+  color: blue;
+  font-family: "Lucida Console", Courier, monospace;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
