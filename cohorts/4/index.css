@@ -1,0 +1,41 @@
+html, body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    background-color: beige;
+}
+img {
+    width: 500px;
+}
+h1 {
+    color: purple;
+    letter-spacing: 0.2rem;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+#Ashwini {
+    color: orange;
+}
+#Sneh {
+    color: pink;
+}
+#Ruchi {
+    color: rgb(230, 129, 44);
+}
+#Ila {
+    color: saddlebrown;
+}
+#Kevin {
+    color: blue;
+}
