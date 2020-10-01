@@ -40,3 +40,89 @@
     color: white;
     background-color: orange;
 }
+.team-members {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    
+}
+.team-member {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+.motto-section {
+    color: white;
+    height: 60vh;
+    width: 100vw;
+    background-image: url(https://source.unsplash.com/l6I8jpzKJQU);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.pokemon-img {
+    height: 100%;
+    width: 50%;
+    background-image: url("https://img.pokemondb.net/artwork/large/vulpix.jpg");
+    background-position: center;
+    background-size: contain;
+    float: left;
+    background-repeat: no-repeat;
+
+}
+.mascot {
+    width: 100vw;
+    height: 50vh;
+
+}
+.mascot-right {
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.emily-pic {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 200px;
+}
+.kelly-pic {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 200px;
+}
+.harry-pic {
+    height:200px;
+    width: 200px;
+    background-color: green;
+    border-radius: 200px;
+}
+.neel-pic {
+    height:200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 200px;
+}
+.lily-pic {
+    height:200px;
+    width: 200px;
+    background-color: violet;
+    border-radius: 200px;
+}
+.sanjana-pic {
+    height:200px;
+    width: 200px;
+    background-color: pink;
+    border-radius: 200px;
+}
+.motto-title {
+    color: rgb(46, 46, 46);
+    font-size: 70px;
+}
+.motto-description {
+    color: rgb(46, 46, 46);
+    font-size: 70px;
+}
+
