@@ -1,0 +1,45 @@
+.flex-container {
+    display: flex;
+    justify-content: center;
+    color: purple;
+    font-family: 'Rubik';
+    background-image: url("https://ak.picdn.net/shutterstock/videos/1018518118/thumb/1.jpg");
+}
+.flex-container > h1 {
+    background-color: white;
+    padding: 10px;
+    border: 10px;
+    border-style: dotted;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+body {
+    background-color: orange;
+}
+
+
+.pictures {
+    max-width: 50px;
+    max-height: 200px;
+}
+
+.pictures img {
+    max-width: 200px;
+    height: 200px;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+}
