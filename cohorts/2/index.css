@@ -26,5 +26,92 @@ body .mascot {
 
 #memberList {
 	font-family: "Brush Script MT";
-	font-size: 20
+	font-size: 20;
+}
+
+/*preventing page from horizontally scrolling*/
+html, body {
+    overflow-x: hidden;
+}
+
+/*element for animation*/
+div {
+    background-color: red;
+    position: absolute;
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
+    align-items: center;
+    animation-name: rainbow-bg;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+}
+
+h3 {
+    margin: 25px;
+    background-color: white;
+    padding: 7px;
+}
+
+@keyframes rainbow-bg {
+    100%, 0% {
+        background-color: rgb(255, 0, 0);
+        top: 99%;
+        left: 62%;
+    }
+    8% {
+        background-color: rgb(255, 127, 0);
+        top: 63%;
+        left: 100%;
+    }
+    16% {
+        background-color: rgb(255, 255, 0);
+        top: 62%;
+        left: 11%;
+    }
+    25% {
+        background-color: rgb(127, 255, 0);
+        top: 66%;
+        left: 75%;
+    }
+    33% {
+        background-color: rgb(0, 255, 0);
+        top: 19%;
+        left: 86%;
+    }
+    41% {
+        background-color: rgb(0, 255, 127);
+        top: 75%;
+        left: 70%;
+    }
+    50% {
+        background-color: rgb(0, 255, 255);
+        top: 46%;
+        left: 58%;
+    }
+    58% {
+        background-color: rgb(0, 127, 255);
+        top: 48%;
+        left: 43%;
+    }
+    66% {
+        background-color: rgb(0, 0, 255);
+        top: 41%;
+        left: 89%;
+    }
+    75% {
+        background-color: rgb(127, 0, 255);
+        top: 83%;
+        left: 69%;
+    }
+    83% {
+        background-color: rgb(255, 0, 255);
+        top: 20%;
+        left: 96;
+    }
+    91% {
+        background-color: rgb(255, 0, 127);
+        top: 19%;
+        left: 32%
+    }
 }
