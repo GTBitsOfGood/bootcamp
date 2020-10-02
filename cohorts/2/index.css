@@ -1,40 +1,43 @@
 body .title {
-    display:flex;
+    display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
 }
 
 body .mascot {
-    display:flex;
-    width:1200px;
-    height: 700px; 
-    justify-content:center;
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    justify-content: center;
 }
+
 .mainTitle {
-	color: purple;
-	font-family: impact;
+    color: purple;
+    font-family: impact;
 }
 
 .smallTitle {
-	font-family: "Lucida Console";
+    font-family: "Lucida Console";
 }
 
 #motto {
-	color: yellow;
-	font-family: cursive;
+    color: yellow;
+    font-family: cursive;
 }
 
 #memberList {
-	font-family: "Brush Script MT";
-	font-size: 20;
+    font-family: "Brush Script MT";
+    font-size: 20;
 }
 
 /*preventing page from horizontally scrolling*/
+
 html, body {
     overflow-x: hidden;
 }
 
 /*element for animation*/
+
 div {
     background-color: red;
     position: absolute;
