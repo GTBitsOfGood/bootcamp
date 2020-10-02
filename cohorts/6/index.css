@@ -12,3 +12,14 @@ h1 {
   margin-right: auto;
   width: auto;
 }
+
+body {
+    background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
+    
+}
+
+.motto {
+    color: rgb(27, 20, 129);
+    font-family: "Lucida Console", Courier, monospace;
+    font-size: 15px;
+}
