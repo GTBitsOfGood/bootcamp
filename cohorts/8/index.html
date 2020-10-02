@@ -3,95 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cohort 8 Branch Readme</title>
+    <title>8Bit</title>
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Google Font Implmentation-->
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <!--Bootstrap Implementation-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--Font Awesome Implementation-->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
-    <nav style="padding-left: 30px;" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html/#home">8Bit</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html#home">Home<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="index.html#motto">Our Motto</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html#team">About Us</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html#mascot-section">The Mascot</a>
-            </li>
-          </ul>
+    <!--Custom NavBar-->
+    <div id="home" class="nav">
+        <!--Brand (left)-->
+        <div class="nav-item-logo">
+            <a href="index.html#home">
+                <div class="logo"></div>
+            </a>
         </div>
-      </nav>
+        <!--Menu (right)-->        
+        <div class="nav-item-wrapper">
+            <a class="nav-menu" href="index.html#home">Home</a>
+            <a class="nav-menu" href="index.html#motto">Motto</a>
+            <a class="nav-menu" href="index.html#team">About Us</a>
+            <a class="nav-menu" href="index.html#mascot-section">Our Mascot</a>
+        </div>
+    </div>
 
-    <section id="home" class="header-section center">
-        <div class="center">
-            <h1 class="cohort-title">Cohort 8Bit</h1>
-            <form action="https://www.youtube.com/embed/dQw4w9WgXcQ">
+    <!--Head Section-->
+    <!--This section is set as relative parent for scrolly animation below (absolute)-->
+    <section class="header-section">
+        <!--Separated left and right for words and illustration-->
+        <div class="header-section-info-left">
+            <h1 class="cohort-title">We are <span class="span-orange span-wave">8BIT</span></h1>
+            <p class="header-section-description"><span class="changing">Changing</span> lives <span class="span-orange">8BIT</span> at a time.</p>
+            <p class="header-section-description">Just a group of engineering</p>
+            <p class="header-section-description"><span class="span-orange">bootcampers</span> who love to <span class="span-orange">code!</span></p>
+            <form action="https://giphy.com/gifs/cbc-funny-comedy-mr-d-3osxYwQUsXsuOtyEGQ/fullscreen" target=”_blank”>
                 <input class="rick-roll-btn" type="submit" value="Learn More About Us!">
             </form>
         </div>
+        <div class="header-section-right center">
+            <div class="header-illustration"></div>
+        </div>
+
+        <!-- This is the scrolly animation in the header section. Position is set to absolute, with the relative parent as the .header-section-->
+        <div class="scroll-downs">
+            <div class="mousey">
+              <div class="scroller"></div>
+            </div>
+        </div>
     </section>
 
-    <section id="motto" class="motto-section center">
+    <!--This is a wave SVG file under the head-section
+        The ID is motto because I want this section to be triggered
+        for the nav item.
+    -->
+    <svg id="motto" class="wave-SVG-head-section" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1B2337" fill-opacity="1" d="M0,128L34.3,112C68.6,96,137,64,206,53.3C274.3,43,343,53,411,74.7C480,96,549,128,617,149.3C685.7,171,754,181,823,160C891.4,139,960,85,1029,101.3C1097.1,117,1166,203,1234,218.7C1302.9,235,1371,181,1406,154.7L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+
+    <!--Motto Section-->
+    <section class="motto-section center">
         <div class="center">
             <h2 class="motto-title">Our Motto</h2>
             <p class="motto-description">01000010 01111001 01110100 01100101</p>
         </div>
+
+        <!--This is the hidden collapse that will activate when you press the button-->
+        <div class="collapse" id="collapseExample">
+            <div class="card card-body card-size">
+                "01000010 01111001 01110100 01100101" translates to "Byte" in English!
+            </div>
+          </div>
+        <!--This is the button that will trigger collapse-->
+        <button class="translateBtn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            Scan To Translate!
+        </button>
     </section>
 
+    <!--Fixed Image Break Time! :)-->
+    <section class="fixed-image-section center">
+        <a target=”_blank” class="bogInsta" href="https://www.instagram.com/gtbitsofgood/"><h2 class="hashtag">#BITSOFGOOD</h2></a>
+    </section>
+
+    <!--Team Section-->
     <section id="team" class="team-members center">
+        <h2 class="team-title">The Dream Team</h2>
+        <h3 class="teaminstruction">Click on the picture for linkedin <i class="fa fa-linkedin-square fa-lg"></i></h3>
+        <h3 class="teaminstruction">click on the name for github <i class="fa fa-github fa-lg" aria-hidden="true"></i></h3>
         <div class="team-member-first-row">
             <div class ="team-member center">
-                <div class="emily-pic">
-                </div>   
-                <a href="https://github.com/EmilySH21">Emily Hodges</a> 
+                <a target=”_blank” href="https://www.linkedin.com/in/emily-hodges-gt2021/"><div class="emily-pic">
+                </div></a>   
+                <a class="team-member-name" href="https://github.com/EmilySH21">Emily Hodges</a> 
             </div>
             <div class ="team-member center">
-                <div class="harry-pic">     
-                </div>
-                <a href="https://github.com/harrysedev">Harry S.E. Bae</a>
+                <a target=”_blank” href="https://www.linkedin.com/in/harrysebae/"><div class="harry-pic">     
+                </div></a>
+                <a class="team-member-name" href="https://github.com/harrysedev">Harry S.E. Bae</a>
             </div>
             <div class ="team-member center">
-                <div class="lily-pic">
-                </div>
-                <a href="https://github.com/lilliniunni">Lilly Zhu</a>
+                <a target=”_blank” href="https://www.linkedin.com/in/yunnizhu/"><div class="lily-pic">
+                </div></a>
+                <a class="team-member-name" href="https://github.com/lilliniunni">Lilly Zhu</a>
             </div>
         </div>
         <div class="team-member-second-row">
             <div class ="team-member center">
-                <div class="kelly-pic">
-                </div>
-                <a href="https://github.com/kellytran3k">Kelly Tran</a>
+                <a target=”_blank” href="https://www.linkedin.com/in/kellytran3k/"><div class="kelly-pic">
+                </div></a>
+                <a class="team-member-name" href="https://github.com/kellytran3k">Kelly Tran</a>
             </div>
             <div class ="team-member center">
-                <div class="sanjana-pic">
-                </div>
-                <a href="https://github.com">Sanjana Balusu</a>
+                <a target=”_blank” href="https://www.linkedin.com/in/sanjana-balusu/"><div class="sanjana-pic">
+                </div></a>
+                <a class="team-member-name" href="https://github.com">Sanjana Balusu</a>
             </div>
             <div class = "team-member center">
-                <div class="neel-pic">
-                </div>
-                <a href="https://github.com/nsandell123">Neel Sandell</a>
+                <a target=”_blank” href="https://www.linkedin.com/in/neel-sandell/"><div class="neel-pic">
+                </div></a>
+                <a class="team-member-name" href="https://github.com/nsandell123">Neel Sandell</a>
             </div>
         </div>
     </section>
+    <svg class="teamsection-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#eee" fill-opacity="1" d="M0,32L48,69.3C96,107,192,181,288,176C384,171,480,85,576,85.3C672,85,768,171,864,197.3C960,224,1056,192,1152,202.7C1248,213,1344,267,1392,293.3L1440,320L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+
+    <!--Mascot Section-->
     <section id="mascot-section" class="mascot">
-        <div class="pokemon-img">
-        </div>
+        <div class="mascot-header-wrapper"><h2 class="mascot-header">MEET OUR <span class="span-orange">MASCOT</span></h2></div>
+        <div class="vulpixPic1"></div>
+        <div class="vulpixPic1BG"></div>
     </section>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <!--These Scripts are for Bootstrap (collapse)-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
