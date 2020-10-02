@@ -1,0 +1,29 @@
+.title {
+    color: lightblue;
+    font-size: 80px;
+
+}
+h2{
+    font-size: 60;
+    color: orange
+}
+.motto {
+    font-style: italic;
+    font-size: 40;
+}
+
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+div img {
+    width:25%;
+    height:20%;
+
+}
+.bigcorgi {
+    max-width:40%;
+    height:40%;
+}
