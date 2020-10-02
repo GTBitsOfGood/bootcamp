@@ -7,7 +7,7 @@
 
 .header-section {
     width: 100vw;
-    height: 60vh;
+    height: 80vh;
 }
 
 .cohort-title {
@@ -44,6 +44,9 @@
     display: flex;
     flex-direction: column;
     width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #eee;
     
 }
 .team-member {
@@ -51,6 +54,8 @@
     font-size: 20px;
     align-items: center;
     margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 .motto-section {
     color: white;
@@ -60,21 +65,22 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
 }
 .pokemon-img {
     height: 100%;
-    width: 50%;
+    width: 100%;
     background-image: url("https://img.pokemondb.net/artwork/large/vulpix.jpg");
     background-position: center;
     background-size: contain;
-    float: left;
-    background-repeat: no-repeat;
+
 
 }
 .mascot {
     width: 100vw;
     height: 50vh;
-
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .mascot-right {
     height: 100%;
@@ -86,43 +92,74 @@
     width: 200px;
     background-color: red;
     border-radius: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQFZjraEy0e1NA/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=KKDBByoPliSjX-uBJWBFBXvmS-DKoLTScja5fPmd2fo);
 }
 .kelly-pic {
     height: 200px;
     width: 200px;
     background-color: blue;
     border-radius: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQH5GahuWIMT7A/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=hsykkRHIyQlBqbEFptFlQGsxGpkIk5jpMeLzHiuT6bI);
 }
 .harry-pic {
     height:200px;
     width: 200px;
     background-color: green;
     border-radius: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQEGSg1QpdWawQ/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=23pym7Y6nyniPau-YZHg8oi2Qs9kRTduaA50pLP1c8k);
 }
 .neel-pic {
     height:200px;
     width: 200px;
     background-color: black;
     border-radius: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C5603AQHD9ACYetI7WA/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=MWCxeZqV19CaiyjWFZWohQB82rkfTmnuOCCoN_4VZhs);
 }
 .lily-pic {
     height:200px;
     width: 200px;
     background-color: violet;
     border-radius: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQEC3uNs96dkoQ/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=HOf1upa9ww7Wy61CDH3VONLlevhFNjb485CnAjKO0pA);
 }
 .sanjana-pic {
     height:200px;
     width: 200px;
     background-color: pink;
     border-radius: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQF0WfpDSY_0qA/profile-displayphoto-shrink_400_400/0?e=1606953600&v=beta&t=A9SHMpyubf0pP_PEJV9mI9OVVuZ9HvJ3vvTtevBniCo);
 }
 .motto-title {
     color: rgb(46, 46, 46);
-    font-size: 70px;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-weight: 700;
 }
 .motto-description {
     color: rgb(46, 46, 46);
-    font-size: 70px;
+    font-size: 35px;
+}
+.team-member-first-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.team-member-second-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 

@@ -5,10 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cohort 8 Branch Readme</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section class="header-section center">
+
+    <nav style="padding-left: 30px;" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html/#home">8Bit</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html#home">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#motto">Our Motto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#team">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html#mascot-section">The Mascot</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <section id="home" class="header-section center">
         <div class="center">
             <h1 class="cohort-title">Cohort 8Bit</h1>
             <form action="https://www.youtube.com/embed/dQw4w9WgXcQ">
@@ -17,15 +43,15 @@
         </div>
     </section>
 
-    <section class="motto-section center">
+    <section id="motto" class="motto-section center">
         <div class="center">
             <h2 class="motto-title">Our Motto</h2>
             <p class="motto-description">01000010 01111001 01110100 01100101</p>
         </div>
     </section>
 
-    <section class="team-members center">
-        
+    <section id="team" class="team-members center">
+        <div class="team-member-first-row">
             <div class ="team-member center">
                 <div class="emily-pic">
                     
@@ -46,6 +72,8 @@
 
                 <a href="https://github.com/lilliniunni">Lilly Zhu</a>
             </div>
+        </div>
+        <div class="team-member-second-row">
             <div class ="team-member center">
                 <div class="kelly-pic">
 
@@ -54,7 +82,6 @@
             </div>
             <div class ="team-member center">
                 <div class="sanjana-pic">
-
                 </div>
                 <a href="https://github.com">Sanjana Balusu</a>
             </div>
@@ -64,16 +91,14 @@
                 </div>
                 <a href="https://github.com/nsandell123">Neel Sandell</a>
             </div>
-
-        
+        </div>
     </section>
-    <section class="mascot">
+    <section id="mascot-section" class="mascot">
         <div class="pokemon-img">
         </div>
-        <div class= "mascot-right">
-            
-        </div>
-
     </section>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
