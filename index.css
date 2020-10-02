@@ -1,0 +1,32 @@
+.grid_item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.grid_item img {
+    width: 100px;
+    height: 125px;
+    object-fit: cover;
+}
+
+.grid {
+    display: flex;
+    align-items: flex-end;
+}
+
+#chowchow {
+    display: flex;
+    align-items: baseline;
+}
+
+h1 {
+    margin-top: 25px;
+}
