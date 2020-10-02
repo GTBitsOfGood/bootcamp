@@ -1,3 +1,14 @@
+#title > h1 {
+  color: white;
+}
+
+#cohort {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  color: rgb(27, 20, 129);
+  font-family: "Lucida Console", Courier, monospace;
+}
 h1 {
   color: blue;
   font-family: "Lucida Console", Courier, monospace;
@@ -24,6 +35,7 @@ h1 {
   height: auto;
   margin: auto;
   text-align: center;
+  background: white;
 }
 
 .title {
@@ -53,4 +65,16 @@ a {
 button:hover,
 a:hover {
   opacity: 0.7;
+}
+
+body {
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
+}
+
+.motto {
+  color: rgb(27, 20, 129);
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
 }
