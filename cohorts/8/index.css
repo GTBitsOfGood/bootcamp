@@ -1,3 +1,10 @@
+footer{
+    margin-top: 8vh;
+    width: 100%;
+    height: 50vh;
+    background-color: #1B2337;
+}
+
 .teaminstruction {
     text-align: center;
     text-transform: uppercase;
@@ -12,12 +19,14 @@ div > a {
 }
 
 .nav {
+    position: relative;
     width: 100%;
     height: 80px;
     background-color: #1B2337;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1000;
 }
 
 .nav-item-wrapper{
@@ -64,8 +73,9 @@ div > a {
 }
 
 .header-section {
+    margin-top: -30px;
     width: 100%;
-    height: 83vh;
+    height: 100vh;
     background-color: #1B2337;
     display: flex;
     justify-content: flex-start;
@@ -73,12 +83,13 @@ div > a {
     padding-top: 80px;
     padding-bottom: -10px;
     position: relative;
+    z-index: 30;
 }
 /* scroll animation START for header section*/
 .scroll-downs {
   position: absolute;
   right: 0;
-  bottom: 2px;
+  bottom: 12%;
   left: 0;
   margin: auto;
 
@@ -480,14 +491,20 @@ div > a {
 
 .mascot {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
 .mascot-header-wrapper {
-    margin-top: -90px;
-    margin-left: 100px;
+    margin-top: -20px;
+    margin-left: 120px;
+}
+
+.vulpix-container {
+    width: 50%;
+    height: 100%;
+    float: left;
 }
 
 .mascot-header{
@@ -503,15 +520,16 @@ div > a {
 }
 
 .vulpixPic1{
-    margin-top: 50px;
+    margin-top: 60px;
     width: 600px;
     height: 400px;
     background: url(../8/resources/git/vulpix.gif);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 100px;
+    margin-left: 120px;
     position: relative;
+    display: inline-block;
     z-index: 30;
 }
 
@@ -522,5 +540,114 @@ div > a {
     position: absolute;
     z-index: 29;
     top: 130px;
-    left: 130px;
+    left: 150px;
+}
+
+.vulpix-description{
+    padding-left: 100px;
+    width: 50%;
+    height: 70%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.vulpix-logo{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.pokedexBtn{
+    margin-top: 50px;
+    margin-left: 30%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 300px;
+    border-color: #F9DB6D;
+    color: #1B2337;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-width: 4px;
+    letter-spacing: 2px;
+    background-color: #F9DB6D;
+    transition-duration: 300ms;
+    border: solid #F9DB6D;
+}
+
+.pokedexBtn:hover{
+    mmargin-top: 20px;
+    margin-left: 30%;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 300px;
+    border-color: #F9DB6D;
+    color: #F9DB6D;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-width: 4px;
+    letter-spacing: 2px;
+    background-color: white;
+    transition-duration: 300ms;
+    border: solid #F9DB6D;
+}
+
+.footer-text {
+    color: #F9DB6D;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-btn-holder {
+    display: flex;
+    justify-content: row;
+}
+
+.footer-btn{
+    margin-right: 30px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 300px;
+    border-color: #F9DB6D;
+    color: #1B2337;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-width: 4px;
+    letter-spacing: 2px;
+    background-color: #F9DB6D;
+    transition-duration: 300ms;
+    border: solid #F9DB6D;
+}
+
+.footer-btn:hover{
+    margin-right: 30px;
+    margin-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 300px;
+    border-color: #F9DB6D;
+    color: #F9DB6D;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-width: 4px;
+    letter-spacing: 2px;
+    background-color: #1B2337;
+    transition-duration: 300ms;
+    border: solid #F9DB6D;
 }
