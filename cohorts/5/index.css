@@ -23,22 +23,41 @@ body {
     background-color: orange;
 }
 
-
-.pictures {
-    max-width: 50px;
-    max-height: 200px;
-}
-
-.pictures img {
-    max-width: 200px;
-    height: 200px;
-}
-
-.pictures {
+* {
+    box-sizing: border-box;
+ }
+ h1 {
+    text-align: center;
+ }
+ .outer-grid {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+ }
+ .inner-grid {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+ }
+ .inner-grid img {
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
+ }
+ 
+ @media screen and (max-width: 800px) {
+    .inner-grid {
+       flex: 50%;
+       max-width: 50%;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .inner-grid {
+       flex: 100%;
+       max-width: 100%;
+    }
+ }
 
 ul {
     display: flex;
