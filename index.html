@@ -2,6 +2,7 @@
 
 <head>
   <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
   <title>Bits of Good Bootcamp</title>
   <style>
     html,
@@ -34,28 +35,48 @@
       padding-top: 5px;
     }
   </style>
+  <!--<script>
+    var cohort = {
+    name: "Chow Chow",
+    motto: "Dignity and refinement above all",
+    members: {
+        vikasFunFact: "likes juggling",
+        phoebeFunFact: "foobar1",
+        jonFunFact: "foobar2",
+        emaFunFact: "foobar3"
+      }
+    }
+    document.querySelector('h1').innerText = cohort.name;
+    document.getElementById('title').innerText = cohort.name;
+    function sayYo() { 
+      alert("Yo howzit goin?");
+    }
+  </script>
+-->
 </head>
 
 <body>
   <section>
-    <h1>Chow Chow</h1>
+    <h1 id="title">Chow Chow
+    </h1>
+    <button onclick="sayYo()">ClickMeForGreeting</button>
     <p>Welcome to our page!</p>
     <p>"dignity and refinement above all"</p>
     <div class="grid">
       <div class="grid_item">
-        <div>Phoebe </div>
+        <button id="P" onclick="getPhoebeFunFact()">Reveal Phoebes Fun Fact </button>
         <img src="Phoebe.jpg" />
       </div>
       <div class="grid_item">
-        <div>Vikas </div>
-        <img src="vikas.jpg" />
+        <button id="V" onclick="getVikasFunFact()">Reveal Vikas's Fun Fact </button>
+        <img src="vikas.jpg"/>
       </div>
       <div class="grid_item">
-        <div>Ema </div>
+        <button id="E" onclick="getEmaFunFact()">Reveal Ema's Fun Fact </button>
         <img src="ema.jpg" />
       </div>
       <div class="grid_item">
-        <div>Jonathan </div>
+        <button id="J" onclick="getJonathanFunFact()">Reveal Jonathan's Fun Fact </button>
         <img src="jonathan.jpeg" />
       </div>
     </div>
