@@ -5,7 +5,7 @@ let cohort = {
         phoebeFunFact: "foobar1",
         vikasFunFact: "likes juggling",
         emaFunFact: "foobar2",
-        jonathanFunFact: "foobar3"
+        jonathanFunFact: "likes basketball"
         
       }
     }
