@@ -33,8 +33,21 @@ body {
 }
 
 h1 {
-    justify-content: last baseline;
+    justify-content: center;
+    flex-direction: column;
     margin-top: 25px;
 }
+#title {
+    align-items: center;
+}
 
+#mutto {
+    font-family: Snell Roundhand, cursive;
+    font-size: x-large;
+}
 
+#title {
+    font-family: Marker felt, fantasy;
+    font-size: xx-large;
+    text-align: center;
+}
