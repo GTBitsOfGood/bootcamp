@@ -11,12 +11,14 @@
 body {
     display: flex;
     justify-content: center;
+    background-color:teal;
 }
 
 .grid_item img {
     width: 150px;
     height: 180px;
     object-fit: cover;
+    border: 5px solid;
 }
 
 .grid {
@@ -27,8 +29,12 @@ body {
 #chowchow {
     display: flex;
     align-items: baseline;
+    border: 5px solid blueviolet;
 }
 
 h1 {
+    justify-content: last baseline;
     margin-top: 25px;
 }
+
+

@@ -6,7 +6,6 @@ let cohort = {
         vikasFunFact: "likes juggling",
         emaFunFact: "foobar2",
         jonathanFunFact: "likes basketball"
-        
       }
     }
 /*document.querySelector('h1').innerText = cohort.name;
@@ -16,14 +15,30 @@ function sayYo() {
     alert("Yo howzit goin?");
 }
 function getPhoebeFunFact() {
-    document.getElementById("P").innerText = cohort.members.phoebeFunFact;
+    if (document.getElementById("P").innerText === "Reveal Phoebe's Fun Fact") {
+        document.getElementById("P").innerText = cohort.members.phoebeFunFact;
+    } else {
+        document.getElementById("P").innerText = "Reveal Phoebe's Fun Fact";
+    }
 }
 function getVikasFunFact() {
-    document.getElementById("V").innerText = cohort.members.vikasFunFact;
+    if (document.getElementById("V").innerText === "Reveal Vikas's Fun Fact") {
+        document.getElementById("V").innerText = cohort.members.vikasFunFact;
+    } else {
+        document.getElementById("V").innerText = "Reveal Vikas's Fun Fact";
+    }
 }
 function getEmaFunFact() {
-    document.getElementById("E").innerText = cohort.members.emaFunFact;
+    if (document.getElementById("E").innerText === "Reveal Ema's Fun Fact") {
+        document.getElementById("E").innerText = cohort.members.emaFunFact;
+    } else {
+        document.getElementById("E").innerText = "Reveal Ema's Fun Fact";
+    }
 }
 function getJonathanFunFact() {
-    document.getElementById("J").innerText = cohort.members.jonathanFunFact;
+    if (document.getElementById("J").innerText === "Reveal Jonathan's Fun Fact") {
+        document.getElementById("J").innerText = cohort.members.jonathanFunFact;
+    } else {
+        document.getElementById("J").innerText = "Reveal Jonathan's Fun Fact";
+    }
 }
