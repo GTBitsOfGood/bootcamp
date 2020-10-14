@@ -1,5 +1,4 @@
 footer {
-  margin-top: 8vh;
   width: 100%;
   height: 50vh;
   background-color: #1b2337;
@@ -89,6 +88,7 @@ div > a {
   position: relative;
   z-index: 30;
 }
+
 /* scroll animation START for header section*/
 .scroll-downs {
   position: absolute;
@@ -574,46 +574,6 @@ div > a {
   margin-bottom: 30px;
 }
 
-.pokedexBtn {
-  margin-top: 50px;
-  margin-left: 30%;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  border-radius: 300px;
-  border-color: #f9db6d;
-  color: #1b2337;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  border-width: 4px;
-  letter-spacing: 2px;
-  background-color: #f9db6d;
-  transition-duration: 300ms;
-  border: solid #f9db6d;
-}
-
-.pokedexBtn:hover {
-  mmargin-top: 20px;
-  margin-left: 30%;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  border-radius: 300px;
-  border-color: #f9db6d;
-  color: #f9db6d;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  border-width: 4px;
-  letter-spacing: 2px;
-  background-color: white;
-  transition-duration: 300ms;
-  border: solid #f9db6d;
-}
-
 .footer-text {
   color: #f9db6d;
   font-size: 60px;
@@ -803,19 +763,20 @@ div > a {
   padding-top: 17px;
   padding-bottom: 17px;
   border-radius: 300px;
-  border-color: #f9db6d;
-  color: #1b2337;
+  border-color: #1b2337;
+  color: white;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
   border-width: 4px;
   letter-spacing: 2px;
-  background-color: #f9db6d;
+  background-color: #1b2337;
   transition-duration: 300ms;
-  border: solid #f9db6d;
+  border: solid #1b2337;
 }
 
 #reset:hover {
+  width: 300px;
   margin-right: 30px;
   margin-top: 50px;
   padding-left: 50px;
@@ -823,8 +784,8 @@ div > a {
   padding-top: 17px;
   padding-bottom: 17px;
   border-radius: 300px;
-  border-color: #f9db6d;
-  color: #f9db6d;
+  border-color: #1b2337;
+  color: #1b2337;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
@@ -832,7 +793,7 @@ div > a {
   letter-spacing: 2px;
   background-color: transparent;
   transition-duration: 300ms;
-  border: solid #f9db6d;
+  border: solid #1b2337;
 }
 
 .js-title {
@@ -841,4 +802,157 @@ div > a {
   font-weight: 700;
   margin-bottom: 30px;
   font-family: "Montserrat", sans-serif;
+}
+
+.mascot-section {
+  position: relative;
+  margin-top: 120px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+#myVideo {
+  right: 0;
+  bottom: 0;
+  position: relative;
+  height: 100%;
+  width: 177.77777778vh;
+  min-width: 100%;
+  min-height: 56.25vw;
+}
+
+.video-overlay {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  height: 100%;
+  width: 177.77777778vh;
+  min-width: 100%;
+  min-height: 56.25vw;
+  background-color: #000000c7;
+}
+
+.content {
+  position: absolute;
+  z-index: 200;
+  text-decoration: none;
+}
+
+.content:hover {
+  text-decoration: none;
+}
+
+.js-section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.v-line {
+  margin-top: 43px;
+  margin-left: 60px;
+  width: 3px;
+  height: 400px;
+  background: rgb(82, 82, 82);
+}
+
+.fun-fact-photo-row1 {
+  display: flex;
+}
+
+.fun-fact-photo-row2 {
+  display: flex;
+}
+
+.fun-fact {
+  margin-left: 100px;
+  display: none;
+}
+
+#funfactname {
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.funfactparagraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+}
+
+#funfactfood {
+  color: #f9db6d;
+  font-weight: 700;
+}
+
+#funfactmovie {
+  color: #f9db6d;
+  font-weight: 700;
+}
+
+#emily {
+  cursor: pointer;
+}
+
+#harry {
+  cursor: pointer;
+}
+
+#neel {
+  cursor: pointer;
+}
+
+#lily {
+  cursor: pointer;
+}
+
+.linkedinBtn {
+  width: 300px;
+  margin-right: 30px;
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 300px;
+  border-color: #0e76a8;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-width: 4px;
+  letter-spacing: 2px;
+  background-color: #0e76a8;
+  transition-duration: 300ms;
+  border: solid #0e76a8;
+}
+
+.linkedinBtn:hover {
+  width: 300px;
+  margin-right: 30px;
+  margin-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  border-radius: 300px;
+  border-color: #0e76a8;
+  color: #0e76a8;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-width: 4px;
+  letter-spacing: 2px;
+  background-color: transparent;
+  transition-duration: 300ms;
+  border: solid #0e76a8;
 }

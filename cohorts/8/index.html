@@ -73,7 +73,7 @@
           </p>
           <form
             action="https://giphy.com/gifs/cbc-funny-comedy-mr-d-3osxYwQUsXsuOtyEGQ/fullscreen"
-            target="”_blank”"
+            target="_blank"
           >
             <input
               class="rick-roll-btn"
@@ -81,7 +81,7 @@
               value="Learn More About Us!"
             />
           </form>
-          <form action="index.html#js-section" target="”_blank”">
+          <form action="index.html#js-section" target="_blank">
             <input
               class="rick-roll-btn"
               type="submit"
@@ -165,7 +165,7 @@
     <!--Fixed Image Break Time! :)-->
     <section class="fixed-image-section center">
       <a
-        target="”_blank”"
+        target="_blank"
         class="bogInsta"
         href="https://www.instagram.com/gtbitsofgood/"
         ><h2 class="hashtag">#BITSOFGOOD</h2></a
@@ -190,7 +190,7 @@
           data-aos-duration="1100"
         >
           <a
-            target="”_blank”"
+            target="_blank"
             href="https://www.linkedin.com/in/emily-hodges-gt2021/"
             ><div class="emily-pic"></div
           ></a>
@@ -204,7 +204,7 @@
           data-aos-duration="1100"
           data-aos-delay="400"
         >
-          <a target="”_blank”" href="https://www.linkedin.com/in/harrysebae/"
+          <a target="_blank" href="https://www.linkedin.com/in/harrysebae/"
             ><div class="harry-pic"></div
           ></a>
           <a class="team-member-name" href="https://github.com/harrysedev"
@@ -217,7 +217,7 @@
           data-aos-duration="1100"
           data-aos-delay="800"
         >
-          <a target="”_blank”" href="https://www.linkedin.com/in/yunnizhu/"
+          <a target="_blank" href="https://www.linkedin.com/in/yunnizhu/"
             ><div class="lily-pic"></div
           ></a>
           <a class="team-member-name" href="https://github.com/lilliniunni"
@@ -232,7 +232,7 @@
           data-aos-duration="1100"
           data-aos-delay="2000"
         >
-          <a target="”_blank”" href="https://www.linkedin.com/in/kellytran3k/"
+          <a target="_blank" href="https://www.linkedin.com/in/kellytran3k/"
             ><div class="kelly-pic"></div
           ></a>
           <a class="team-member-name" href="https://github.com/kellytran3k"
@@ -245,9 +245,7 @@
           data-aos-duration="1100"
           data-aos-delay="1600"
         >
-          <a
-            target="”_blank”"
-            href="https://www.linkedin.com/in/sanjana-balusu/"
+          <a target="_blank" href="https://www.linkedin.com/in/sanjana-balusu/"
             ><div class="sanjana-pic"></div
           ></a>
           <a class="team-member-name" href="https://github.com"
@@ -260,7 +258,7 @@
           data-aos-duration="1100"
           data-aos-delay="1200"
         >
-          <a target="”_blank”" href="https://www.linkedin.com/in/neel-sandell/"
+          <a target="_blank" href="https://www.linkedin.com/in/neel-sandell/"
             ><div class="neel-pic"></div
           ></a>
           <a class="team-member-name" href="https://github.com/nsandell123"
@@ -284,11 +282,65 @@
     <!--JS Interaction Section-->
     <section id="js-section" class="jsInteraction-section center">
       <h2 class="js-title">Play With Our JavaScript!</h2>
-      <div class="center">
-        <button id="colorBtn">Color Party!</button>
-        <button id="promptBtn">Guess Game!</button>
-        <button id="minionBtn">Mystery Button</button>
-        <button id="reset">Reset Everything!</button>
+      <div class="js-section-wrapper">
+        <div class="center" data-aos="fade-up" data-aos-duration="1200">
+          <button id="colorBtn">Color Party!</button>
+          <button id="promptBtn">Guess Game!</button>
+          <button id="minionBtn">Mystery Button</button>
+          <button id="reset">Reset Everything!</button>
+        </div>
+
+        <div class="v-line"></div>
+
+        <div class="fun-fact-photo-wrapper">
+          <div class="fun-fact-photo-row1">
+            <div
+              class="team-member center"
+              data-aos="flip-left"
+              data-aos-duration="1100"
+            >
+              <div id="emily" class="emily-pic"></div>
+            </div>
+
+            <div
+              class="team-member center"
+              data-aos="flip-left"
+              data-aos-duration="1100"
+              data-aos-delay="400"
+            >
+              <div id="harry" class="harry-pic"></div>
+            </div>
+          </div>
+          <div class="fun-fact-photo-row2">
+            <div
+              class="team-member center"
+              data-aos="flip-right"
+              data-aos-duration="1100"
+              data-aos-delay="800"
+            >
+              <div id="neel" class="neel-pic"></div>
+            </div>
+            <div
+              class="team-member center"
+              data-aos="flip-left"
+              data-aos-duration="1100"
+              data-aos-delay="1200"
+            >
+              <div id="lily" class="lily-pic"></div>
+            </div>
+          </div>
+        </div>
+
+        <div id="funfactinfo" class="fun-fact">
+          <h2 id="funfactname"></h2>
+          <p class="funfactparagraph">
+            I like to eat <span id="funfactfood"></span> and <br />
+            my favorite movie is <span id="funfactmovie"></span>
+          </p>
+          <form target="_blank" id="linkedinLink" action="">
+            <input class="linkedinBtn" type="submit" value="Let's Connect!" />
+          </form>
+        </div>
       </div>
       <img
         id="pic"
@@ -297,13 +349,30 @@
       />
     </section>
 
+    <!--Mascot Section-->
+    <section class="mascot-section center">
+      <video autoplay muted loop id="myVideo">
+        <source
+          src="resources/Pokedex Animated - Vulpix.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <div class="video-overlay"></div>
+      <a
+        class="content"
+        target="_blank"
+        class="bogInsta"
+        href="https://www.youtube.com/watch?v=zFPHBAgDupo"
+        ><h2 class="hashtag">Learn About Our Mascot</h2></a
+      >
+    </section>
     <footer class="center">
       <h2 class="footer-text">Hope You Enjoyed Our Site!</h2>
       <div class="footer-btn-holder">
-        <form target="”_blank”" action="https://www.gatech.edu/">
+        <form target="_blank" action="https://www.gatech.edu/">
           <input class="footer-btn" type="submit" value="Visit Georgia Tech" />
         </form>
-        <form target="”_blank”" action="https://bitsofgood.org/">
+        <form target="_blank" action="https://bitsofgood.org/">
           <input class="footer-btn" type="submit" value="Visit Bits of Good" />
         </form>
       </div>

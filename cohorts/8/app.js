@@ -45,4 +45,15 @@ document.getElementById("reset").addEventListener("click", function () {
   document.getElementById("pic").style.display = "none";
   var color = "rgb" + "(" + 255 + "," + 255 + "," + 255 + ")";
   document.body.style.backgroundColor = color;
+  document.getElementById("funfactinfo").style.display = "none";
+});
+
+document.getElementById("harry").addEventListener("click", function () {
+  document.getElementById("funfactinfo").style.display = "block";
+  document.getElementById("funfactname").innerHTML = "Harry Bae";
+  document.getElementById("funfactfood").innerHTML = "Chicken";
+  document.getElementById("funfactmovie").innerHTML = "The Notebook";
+  document
+    .getElementById("linkedinLink")
+    .setAttribute("action", "https://www.linkedin.com/in/harrysebae/");
 });
