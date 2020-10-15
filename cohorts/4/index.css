@@ -39,3 +39,13 @@ li {
 #Kevin {
     color: blue;
 }
+
+ul img {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-container {
+    display: grid;
+}
