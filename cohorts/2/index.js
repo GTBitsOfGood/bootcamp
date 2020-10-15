@@ -5,8 +5,8 @@ function Member(name, fun_fact) {
 
 const member1 = new Member("lidya", "favorite book: Classics of Western Philosophy");
 const member2 = new Member("alice", "wears lolita-fashion casually");
-const member3 = new Member("seife", "insert fact");
-const member4 = new Member("shree", "insert fact");
+const member3 = new Member("seife", "has over 500 connections on LinkedIn");
+const member4 = new Member("shree", "can speak 4 different languages: English, French, Hindu, Kannada");
 const member5 = new Member("evan", "connoisseur of water");
 const member6 = new Member("vivian", "I paint Warhammer minis as a hobby");
 
