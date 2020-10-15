@@ -5,12 +5,12 @@ function Member(name, fun_fact) {
     this.fun_fact = fun_fact;
 }
 
-const member1 = new Member("lidya", "favorite book: Classics of Western Philosophy");
-const member2 = new Member("alice", "wears lolita-fashion casually");
-const member3 = new Member("seife", "has over 500 connections on LinkedIn");
-const member4 = new Member("shree", "can speak 4 different languages: English, French, Hindu, Kannada");
-const member5 = new Member("evan", "connoisseur of water");
-const member6 = new Member("vivian", "I paint Warhammer minis as a hobby");
+const member1 = new Member("Lidya", "favorite book: Classics of Western Philosophy");
+const member2 = new Member("Alice", "wears lolita-fashion casually");
+const member3 = new Member("Seife", "has over 500 connections on LinkedIn");
+const member4 = new Member("Shree", "can speak 4 different languages: English, French, Hindu, Kannada");
+const member5 = new Member("Evan", "connoisseur of water");
+const member6 = new Member("Vivian", "I paint Warhammer minis as a hobby");
 
 var cohort = {
     name: "Terrible Twos",
