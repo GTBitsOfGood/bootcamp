@@ -18,18 +18,24 @@ body {
     width: 150px;
     height: 180px;
     object-fit: cover;
-    border: 5px solid;
+    border: 5px solid #E9C46A;
+}
+
+.grid_item img:hover {
+    border-color: white;
+    border-radius: 50%;
 }
 
 .grid {
     display: flex;
     align-items: flex-end;
+    margin-bottom: 30px;
 }
 
 #chowchow {
     display: flex;
     align-items: baseline;
-    border: 5px solid blueviolet;
+    border: 5px solid #E9C46A;
 }
 
 h1 {
@@ -37,17 +43,40 @@ h1 {
     flex-direction: column;
     margin-top: 25px;
 }
-#title {
-    align-items: center;
-}
 
 #mutto {
-    font-family: Snell Roundhand, cursive;
+    /* font-family: Snell Roundhand, cursive; */
     font-size: x-large;
 }
 
 #title {
-    font-family: Marker felt, fantasy;
-    font-size: xx-large;
+    /* font-family: Marker felt, fantasy; */
+    font-size: 50px;
     text-align: center;
+    letter-spacing: 5px;
+    background-color: #E9C46A;
+    box-shadow: 10px 10px #bd9d4e;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    border: 5px solid #E9C46A;
+    border-radius: 5px;
+}
+
+button:hover {
+    box-shadow: 5px 5px white;
+}
+
+.chowchowimg {
+    display: flex;
+    justify-content: center;
 }

@@ -2,9 +2,9 @@ let cohort = {
     name: "Chow Chow",
     motto: "Dignity and refinement above all",
     members: {
-        phoebeFunFact: "foobar1",
+        phoebeFunFact: "likes cupcakes",
         vikasFunFact: "likes juggling",
-        emaFunFact: "foobar2",
+        emaFunFact: "likes boba",
         jonathanFunFact: "likes basketball"
       }
     }
