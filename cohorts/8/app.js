@@ -57,3 +57,15 @@ document.getElementById("harry").addEventListener("click", function () {
     .getElementById("linkedinLink")
     .setAttribute("action", "https://www.linkedin.com/in/harrysebae/");
 });
+
+document.getElementById("neel").addEventListener("click", function () {
+  document.getElementById("funfactinfo").style.display = "block";
+  //Name
+  document.getElementById("funfactname").innerHTML = "Neel Sandell";
+  //Food
+  document.getElementById("funfactfood").innerHTML = "Pizza";
+  //Movie
+  document.getElementById("funfactmovie").innerHTML = "Wolf of Wall Street";
+  //Linkedin
+  document.getElementByTagName("form").setAttribute("action", "linkedin.com/en/nsandell123");
+});
