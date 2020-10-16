@@ -62,6 +62,19 @@ h1 {
   margin-left: 30px;
 }
 
+
+.funfactfooter {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 350px;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: lightcyan;
+}
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   border-radius: 15px;

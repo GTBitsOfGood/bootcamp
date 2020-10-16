@@ -13,6 +13,16 @@ function teammember(name, funfact) {
     this.funfact = funfact;
 }
 
+const Jacob = teammember('Jacob', 'Jacob has flown the Goodyear blimp')
+
+document.getElementsById('JacobCard').onclick = setFunFact(Jacob);
+
+function setFunFact(teammember) {
+    document.getElementById('funfactfootertext').innerHTML = teammember.funfact;
+
+}
+
+
 function cohortname(cohortname) {
     this.cohortname = cohortname;
 }
@@ -20,6 +30,9 @@ function cohortname(cohortname) {
 function cohortmotto(motto) {
     this.motto = motto;
 }
+
+
+
 
 
 //TODO: use js to populate html 
