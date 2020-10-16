@@ -4,9 +4,9 @@ function Person(name, fact) {
 }
 
 var members = new Array();
-members.push(new Person("Sneh", "Sneh's fact"));
-members.push(new Person("Ila", "Ila's fact"));
-members.push(new Person("Ashwini", "Ashwini's fact"));
+members.push(new Person("Sneh", "I'm left handed"));
+members.push(new Person("Ila", "I have an identical twin sister"));
+members.push(new Person("Ashwini", "I eat oatmeal every single morning"));
 members.push(new Person("Ruchi", "Ruchi's fact"));
 
 
@@ -18,6 +18,7 @@ var cohort = {
 
 for (const member of members) {
 	document.getElementById(member.name).innerText = member.name;
+	document.getElementById(member.name + "_fact").innerText = member.fact;
 }
 
 document.getElementById('motto').innerText = cohort.motto;

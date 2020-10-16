@@ -12,7 +12,7 @@ body {
     background-color: beige;
 }
 img {
-    width: 500px;
+    width: 200px;
 }
 h1 {
     color: purple;
@@ -40,12 +40,22 @@ li {
     color: blue;
 }
 
-ul img {
-    width: 200px;
+div img {
+    width: 75px;
+    height: 75px;
     display: flex;
     flex-direction: row;
 }
 
-.grid-container {
-    display: grid;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    flex: 0 40%;
+    height: 150px;
+    margin-bottom: 2%;
+    margin-left: 10%;
 }
