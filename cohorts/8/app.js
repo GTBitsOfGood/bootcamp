@@ -78,3 +78,13 @@ document.getElementById("emily").addEventListener("click", function() {
   document.getElementById("linkedinLink").setAttribute("action", "https://www.linkedin.com/in/emily-hodges-gt2021/");
 
 });
+
+document.getElementById("lily").addEventListener("click", function() {
+ document.getElementById("funfactinfo").style.display = "block";
+ document.getElementById("funfactname").innerHTML = "Yunni Zhu";
+ document.getElementById("funfactfood").innerHTML = "All the Spicy Food";
+ document.getElementById("funfactmovie").innerHTML = "Lady Bird";
+ document.getElementById("linkedinLink").setAttribute("action", "https://www.linkedin.com/in/yunnizhu");
+
+}
+);

@@ -10,6 +10,10 @@ footer {
   outline: none !important;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .teaminstruction {
   text-align: center;
   text-transform: uppercase;
@@ -956,3 +960,6 @@ div > a {
   transition-duration: 300ms;
   border: solid #0e76a8;
 }
+
+
+  
