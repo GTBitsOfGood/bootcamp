@@ -67,5 +67,14 @@ document.getElementById("neel").addEventListener("click", function () {
   //Movie
   document.getElementById("funfactmovie").innerHTML = "Wolf of Wall Street";
   //Linkedin
-  document.getElementByTagName("form").setAttribute("action", "linkedin.com/en/nsandell123");
+  document.getElementById("linkedinLink").setAttribute("action", "linkedin.com/en/nsandell123");
+});
+
+document.getElementById("emily").addEventListener("click", function() {
+  document.getElementById("funfactinfo").style.display = "block";
+  document.getElementById("funfactname").innerHTML = "Emily Hodges";
+  document.getElementById("funfactfood").innerHTML = "Tacos";
+  document.getElementById("funfactmovie").innerHTML = "Lord of the Rings";
+  document.getElementById("linkedinLink").setAttribute("action", "https://www.linkedin.com/in/emily-hodges-gt2021/");
+
 });
