@@ -1,5 +1,3 @@
-// Hi Rita! :-)
-
 console.log("hello")
 
 function Cohort(name, motto) {
