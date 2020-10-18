@@ -6,7 +6,7 @@ function Cohort(name, motto) {
 }
 const myCohort = {
     name: 'Corgi',
-    motto: 'Woof! XOXO',
+    motto: 'Woof! XOXO   HELLO',
 
 }
 function Members(name, funFact) {
