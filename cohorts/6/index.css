@@ -1,0 +1,143 @@
+#title > h1 {
+  color: rgb(27, 20, 129);
+  line-height: 55px;
+  font-size: 65px;
+  opacity: 0.85;
+  white-space: nowrap;
+  position: absolute;
+  right: 100%;
+  transform-origin: top right 0;
+  transform: rotate(270deg);
+}
+#music {
+  margin-left: 80px;
+  margin-bottom: 0px;
+}
+.secondary {
+  color: purple;
+  display: block;
+  margin-left: 30px;
+}
+
+#cohort {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 0px;
+  font-size: 22px;
+  color: rgb(27, 20, 129);
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+.myButton {
+  background: linear-gradient(to bottom, #1b1481 5%, #1b1481 100%);
+  background-color: #1b1481;
+  border-radius: 28px;
+  border: 1px solid #1b1481;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  padding: 17px 28px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #1b1481 5%, #1b1481 100%);
+  background-color: #1b1481;
+}
+#buttonPosition {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+h1 {
+  color: navy;
+  font-family: "Lucida Console", Courier, monospace;
+  display: flex;
+  justify-content: center;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+.funfactfooter {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 350px;
+  height: auto;
+  margin-top: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: medium;
+  background: rgb(216, 221, 223);
+  display: absolute;
+  margin-top: 40px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 350px;
+  height: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  background: lightcyan;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-right: 90px;
+  margin-left: 0px;
+}
+
+#StephanieCard img {
+  transition: transform 0.5s, box-shadow 0.5s;
+  position: absolute;
+  display: block;
+}
+
+.card img:first-child {
+  z-index: 1;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+
+body {
+  background-image: url("https://coolbackgrounds.io/images/backgrounds/index/sea-edge-79ab30e2.png");
+  background-size: cover;
+}
+
+.motto {
+  color: rgb(27, 20, 129);
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 22px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.MaxDaniel {
+  display: inline;
+  justify-content: center;
+}
