@@ -4,7 +4,6 @@ let currentSlide = 0;
 let z = 1;
 let shuffled = false;
 
-// Clicking on the slide area cycles though the images
 slideArea.addEventListener("click", () => {
   currentSlide == images.length - 1 ? (currentSlide = 0) : currentSlide++;
 
@@ -16,7 +15,6 @@ slideArea.addEventListener("click", () => {
   images[currentSlide].style.animation = "fade 0.5s";
 });
 
-// Mousing over the slide area randomly shuffles the image positions by +/- 50px
 slideArea.addEventListener("mouseenter", () => {
   if (!shuffled) {
     images.forEach((image) => {
@@ -26,7 +24,6 @@ slideArea.addEventListener("mouseenter", () => {
   }
 });
 
-// Mousing out of the slide area resets the image positions
 slideArea.addEventListener("mouseleave", (e) => {
   images.forEach((image) => {
     image.style.transform = "";
