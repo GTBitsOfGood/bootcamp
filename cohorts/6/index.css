@@ -9,7 +9,10 @@
   transform-origin: top right 0;
   transform: rotate(270deg);
 }
-
+#music {
+  margin-left: 80px;
+  margin-bottom: 0px;
+}
 .secondary {
   color: purple;
   display: block;
@@ -19,7 +22,7 @@
 #cohort {
   display: flex;
   justify-content: flex-start;
-  margin-left: 80px;
+  margin-left: 0px;
   font-size: 22px;
   color: rgb(27, 20, 129);
   font-family: "Lucida Console", Courier, monospace;
@@ -47,7 +50,7 @@
   display: flex;
   justify-content: flex-start;
   margin-bottom: 50px;
-  margin-left: 80px;
+  margin-left: 0px;
 }
 h1 {
   color: navy;
@@ -60,31 +63,50 @@ h1 {
   display: flex;
   flex-direction: row;
   margin-left: 30px;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
 }
-
 
 .funfactfooter {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   width: 350px;
   height: auto;
-  margin: auto;
   margin-top: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
-  background: lightcyan;
+  font-size: medium;
+  background: rgb(216, 221, 223);
+  display: absolute;
+  margin-top: 40px;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   border-radius: 15px;
   width: 350px;
   height: auto;
-  margin: auto;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
   background: lightcyan;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-right: 90px;
+  margin-left: 0px;
+}
+
+#StephanieCard img {
+  transition: transform 0.5s, box-shadow 0.5s;
+  position: absolute;
+  display: block;
+}
+
+.card img:first-child {
+  z-index: 1;
 }
 
 .title {
@@ -112,6 +134,10 @@ body {
   color: rgb(27, 20, 129);
   font-family: "Lucida Console", Courier, monospace;
   font-size: 22px;
-  margin-left: 80px;
-  margin-top: 30px;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.MaxDaniel {
+  display: inline;
+  justify-content: center;
 }

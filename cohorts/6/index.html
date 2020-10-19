@@ -1,8 +1,10 @@
 <head>
   <link rel="stylesheet" href="index.css" />
   <title>Utter Nonsense</title>
+
 </head>
 <body>
+  </div>
   <header>
     <div id = "title">
     <h1>MEET <span class = "secondary"> UTTER NONSENSE </span>
@@ -10,22 +12,29 @@
   </div>
   </header>
   <main>
+    <div id = "music">
+      <audio controls> 
+        <source src = "fancy.mp3" type="audio/mpeg">
+      </audio>
     <section>
       <div class="motto">
         <h2>Motto:</h2>
       </div>
       <div class = "motto">
-        <p>Changing lives 10Bit at a time (10Bit > 8BIT)</p>
+        <p>Some sense just don't need to be made</p>
+        <p> 1 + 1 = 11; 2 + 2 = Fish; 3 + 3 = 8</p>
+        <p>Don't question it and move on with your goddamn life </p>
       </div>
       <div id = "buttonPosition">
-      <a href="https://trollface.dk/" class="myButton">Meet Our Mascot!</a>
+      <a href="smile.html" target="_blank" class="myButton">Meet Our Mascot!</a>
     </div>
+    <div class = "funfactfooter" style="width: 600px; height: 150px; "> <h1 id="funfactfootertext"></h1></div>
       <div id = "cohort">
         <h2>Our Cohort Members:</h2>
       </div>
       <div class="all">
-        <div class="card"  id='StephanieCard'>
-          <img src="1.jpg" style="width: 350px;height: 300px; border-radius:15px 15px 0px 0px;" />
+
+        <div class="card"  id='StephanieCard'  onmouseover="document.getElementById('funfactfootertext').innerHTML = 'Fun Fact: Stephanie had a gold fish. It died when she was only 10 years old and ever since then, she has not been the same. Please show her some remorse and venmo her at @Stephanie-Luo-6.'">
           <h1>Stephanie Luo</h1>
           <p class="title">The Hardworking Crewmate</p>
           <p id = "button">
@@ -34,11 +43,14 @@
               Steph's GitHub Branch
             </a>
           </p>
+          <img src="happyFace.jpg" style="width: 327px;height: 300px; border-radius:0px 0px 15px 15px;" />
+          <img src="sad.jpg" style="width: 327px;height: 300px; border-radius:0px 0px 15px 15px;" />
         </div>
 
+        
 
-        <div class="card"  id='NidhishaCard'>
-          <img src="2.jpg" style="width: 350px; height: 300px; border-radius:15px 15px 0px 0px;" />
+
+        <div class="card"  id='NidhishaCard' onmouseover="document.getElementById('funfactfootertext').innerHTML = 'Fun Fact: Nidhisha loves dogs! I also feel for Stephanie and understand the amount of pain she has gone through. Please venmo her at @Stephanie-Luo-6.'">
           <h1>Nidhisha Dasari</h1>
           <p class="title">The Sus One</p>
           <p id = "button">
@@ -47,10 +59,10 @@
               Nidhisha's GitHub Branch
             </a>
           </p>
+          <img src="pickleRick.jpg" style="width: 350px; height: 300px; border-radius:0px 0px 15px 15px;" />
         </div>
 
-      <div class="card" id='JacobCard' onmouseover="document.getElementById('funfactfootertext').innerHTML = 'Jacob has flown the Goodyear blimp'">
-        <img src="3.png" style="width: 350px; height: 300px; border-radius:15px 15px 0px 0px;" />
+      <div class="card" id='JacobCard' onmouseover="document.getElementById('funfactfootertext').innerHTML = 'Fun Fact: Jacob has flown the Goodyear blimp! Make sure to venmo Stephanie at @Stephanie-Luo-6! Please do not be a cold hearted, soulless person :('">
         <h1>Jacob Weinman</h1>
         <p class="title">The Imposter</p>
         <p id = "button">
@@ -59,11 +71,22 @@
             Jacob's GitHub Branch
           </a>
         </p>
+        <img src="3.png" style="width: 327px; height: 300px; border-radius:0px 0px 15px 15px;" /> 
       </div>
     </section>
-    <section>
-      <div></div>
+    
+    <section class="MaxDaniel">
+      <img src="daniel.png" style="width: 200px; height: 200px; border-radius:10px 10px 10px 10px;">
+      <img src="wideMax.png" style="width: 200px; height: 200px; border-radius:10px 10px 10px 10px;">
+      <img src="daniel.png" style="width: 200px; height: 200px; border-radius:10px 10px 10px 10px;">
+      <img src="floorMax.png" style="width: 200px; height: 200px; border-radius:10px 10px 10px 10px;">
+      <img src="daniel.png" style="width: 200px; height: 200px; border-radius:10px 10px 10px 10px;">
+      <img src="burritoMax.png" style="width: 200px; height: 200px; border-radius:10px 10px 10px 10px;">
     </section>
   </main>
-  <footer class="funfactfooter" style="width: 600px; height: 200px; "><h1 id="funfactfootertext"></h1></footer>
+  <footer> <h1 id="funfactfootertext">"Stream BlackPink" - Eric Matthews :)</h1></footer>
 </body>
+
+<script src = "index.js" > </script>
+<script src = "card.js" > </script>
+
