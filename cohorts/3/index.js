@@ -15,6 +15,64 @@ function Members(name, funFact) {
 
 }
 
+function randomPerson() {
+    document.getElementById("images").innerHTML = "";
+    const person1 = `
+    <div class = "items1" onClick = "funfact1()">
+        <img class = "profile" src = "https://i.pinimg.com/originals/5b/e8/4f/5be84f684cb91a9783116073ba0d740a.jpg">
+        <p class = "caption"> Fareeda </p>
+    </div>`;
+    const person2 = `
+    <div class = "items2" onClick = "funfact3()">
+        <img class = "profile" src = "https://i.redd.it/7zqw8y5v9vg11.jpg">
+        <p class = "caption"> Lyann </p>
+    </div>`;
+    const person3 = `
+    <div class = "items3">
+        <img class = "profile" src = "https://static.boredpanda.com/blog/wp-content/uploads/2018/05/funny-corgis-cute-dogs-17-5afbf59b75e0e__700.jpg">
+        <p class = "caption"> Anusha </p>
+    </div>`;
+    const person4 = `
+    <div class = "items4">
+        <img class = "profile" src = "https://emwng.com/wp-content/uploads/2018/07/emwng_18581079_183275692200240_766018451012583424_n.jpg">
+        <p class = "caption"> Kimberly </p>
+    </div>`;
+    const person5 = `
+    <div class = "items5" onClick = "funfact2()">
+        <img class = "profile" src = "https://heydjangles.com/wp-content/uploads/2019/09/cute-corgi-puppy-dog.jpg">
+        <p class = "caption"> Rita </p>
+    </div>`;
+    const person6 = `
+    <div class = "items6">
+        <img class = "profile" src = "https://static.boredpanda.com/blog/wp-content/uploads/2018/05/funny-corgis-cute-dogs-17-5afbf59b75e0e__700.jpg">
+        <p class = "caption"> Shruthi </p>
+    </div>`;
+    var myArray = [person1, person2, person3, person4, person5, person6];
+    const random = Math.floor(Math.random() * myArray.length);
+    document.getElementById("images").innerHTML = myArray[random];
+}
+
+function funfact1() {
+    var div = document.createElement('div');
+    div.setAttribute('class', 'fact');
+    div.innerHTML = myMember4.funFact;
+    document.getElementById("images").appendChild(div);
+}
+
+function funfact2() {
+    var div = document.createElement('div');
+    div.setAttribute('class', 'fact');
+    div.innerHTML = myMember1.funFact;
+    document.getElementById("images").appendChild(div);
+}
+
+function funfact3() {
+    var div = document.createElement('div');
+    div.setAttribute('class', 'fact');
+    div.innerHTML = myMember2.funFact;
+    document.getElementById("images").appendChild(div);
+}
+
 const myMember1 = {
     name: 'Rita',
     funFact: 'I like building Legos'
