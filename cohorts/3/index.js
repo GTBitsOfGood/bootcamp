@@ -28,12 +28,12 @@ function randomPerson() {
         <p class = "caption"> Lyann </p>
     </div>`;
     const person3 = `
-    <div class = "items3">
+    <div class = "items3" onClick = "funfact4()">
         <img class = "profile" src = "https://static.boredpanda.com/blog/wp-content/uploads/2018/05/funny-corgis-cute-dogs-17-5afbf59b75e0e__700.jpg">
         <p class = "caption"> Anusha </p>
     </div>`;
     const person4 = `
-    <div class = "items4">
+    <div class = "items4" onClick = "funfact5()">
         <img class = "profile" src = "https://emwng.com/wp-content/uploads/2018/07/emwng_18581079_183275692200240_766018451012583424_n.jpg">
         <p class = "caption"> Kimberly </p>
     </div>`;
@@ -43,10 +43,11 @@ function randomPerson() {
         <p class = "caption"> Rita </p>
     </div>`;
     const person6 = `
-    <div class = "items6">
+    <div class = "items6" onClick = "funfact6()">
         <img class = "profile" src = "https://static.boredpanda.com/blog/wp-content/uploads/2018/05/funny-corgis-cute-dogs-17-5afbf59b75e0e__700.jpg">
         <p class = "caption"> Shruthi </p>
     </div>`;
+
     var myArray = [person1, person2, person3, person4, person5, person6];
     const random = Math.floor(Math.random() * myArray.length);
     document.getElementById("images").innerHTML = myArray[random];
@@ -73,6 +74,27 @@ function funfact3() {
     document.getElementById("images").appendChild(div);
 }
 
+function funfact4() {
+    var div = document.createElement('div');
+    div.setAttribute('class', 'fact');
+    div.innerHTML = myMember3.funFact;
+    document.getElementById("images").appendChild(div);
+}
+
+function funfact5() {
+    var div = document.createElement('div');
+    div.setAttribute('class', 'fact');
+    div.innerHTML = myMember5.funFact;
+    document.getElementById("images").appendChild(div);
+}
+
+function funfact6() {
+    var div = document.createElement('div');
+    div.setAttribute('class', 'fact');
+    div.innerHTML = myMember6.funFact;
+    document.getElementById("images").appendChild(div);
+}
+
 const myMember1 = {
     name: 'Rita',
     funFact: 'I like building Legos'
@@ -85,12 +107,22 @@ const myMember2 = {
 
 const myMember3 = {
     name: 'Anusha',
-    funFact: ""
+    funFact: "I am from Washington DC!"
 }
 
 const myMember4 = {
     name: 'Fareeda',
     funFact: "I might be obsessed with chocolate drinks"
+}
+
+const myMember5 = {
+    name: 'Kimberly',
+    funFact: "I love BTS!"
+}
+
+const myMember6 = {
+    name: 'Shruthi',
+    funFact: "Mountainclimbing rocks!"
 }
 
 
