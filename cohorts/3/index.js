@@ -85,7 +85,7 @@ const myMember2 = {
 
 const myMember3 = {
     name: 'Anusha',
-    funFact: ""
+    funFact: "I am obsessed with Netflix"
 }
 
 const myMember4 = {
