@@ -10,7 +10,7 @@
 
 body {
   color: black;
-  background-color: #D3EDEE;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -32,6 +32,25 @@ main {
   margin-top: 12rem;
   margin-left: 5rem;
   padding: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-self: center;
+}
+main img{
+  border-radius: 50%;
+  padding: 50px;
+}
+.intro{
+  width: 100%;
+  background-color: #e5dce1;
+  padding: 2%;
+  margin: 3%;
+  border-radius: 5%;
+}
+.motto img{
+  width: 5%;
+  padding: 0%;
 }
 
 .navbar {
@@ -313,7 +332,7 @@ CSS for Animation
     background-color: #fdf0d8;
     padding: 20px;
     height: auto;
-    width: auto;
+    width: 100%;
     display: flex;
     align-self: stretch;
     flex-direction: column;
@@ -349,6 +368,7 @@ CSS for Animation
     display: flex;
     flex-direction: row;
     align-self: flex-end;
+    /* margin: 100%; */
   }
 
   #social a:link{
@@ -385,7 +405,7 @@ CSS for Animation
   }
   #infoI2 img{
     border-radius: 5%;
-    max-width: 50%;
+    max-width: 70%;
     height: auto;
     padding: 20px;
     margin-right: 0%;
@@ -397,12 +417,21 @@ CSS for Animation
     background-color: #f9d7b4;
     padding: 20px;
     height: auto;
-    width: auto;
+    width: 100%;
     display: flex;
     align-self: stretch;
     flex-direction: column;
     align-content: stretch;
   }
 
-
+  #contactUs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 27.5%;
+    
+  }
+  
 
