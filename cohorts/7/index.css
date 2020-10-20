@@ -1,0 +1,110 @@
+.grid_item{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 200px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color:teal;
+}
+
+.grid_item img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border: 5px solid #E9C46A;
+}
+
+.grid_item img:hover {
+    border-color: white;
+    border-radius: 50%;
+}
+
+.grid {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+#chowchow {
+    display: flex;
+    align-items: baseline;
+    border: 5px solid #E9C46A;
+}
+
+h1 {
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+#mutto {
+    /* font-family: Snell Roundhand, cursive; */
+    font-size: x-large;
+}
+
+#title {
+    /* font-family: Marker felt, fantasy; */
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: #E9C46A;
+    box-shadow: 10px 10px #bd9d4e;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    width: 200px;
+    border: 5px solid #E9C46A;
+    border-radius: 5px;
+}
+
+button:hover {
+    box-shadow: 5px 5px white;
+}
+
+.chowchowimg {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
