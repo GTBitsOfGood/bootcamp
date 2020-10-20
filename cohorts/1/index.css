@@ -275,3 +275,90 @@ CSS for Animation
   .solar #solarIcon {
     display: block;
   } */
+
+
+  /* Marlene */
+  #info{
+    position: absolute;
+    /* list-style-image: url("./assets/fire-solid.svg"); */
+    font-size: medium;
+    width: 100%;
+    display: flex;
+    padding-top: 0.25%;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: row;
+  }
+  #infoColor{
+    background-color: #e5dce1;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-radius: 2%;
+  }
+  #infoImg img{
+    border-radius: 5%;
+    max-width: 50%;
+    height: auto;
+    padding: 20px;
+    margin-right: 0%;
+  }
+  .infoContent{
+    list-style-image: url("./assets/fire-solid.svg");
+    /* list-style: none; */
+    margin: 2.5%;
+    background-color: #fdf0d8;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-content: stretch;
+  }
+  #calciferBoi{
+    position: absolute;
+    left: 22%;
+    top: 1.5%;
+
+    background: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #ce2029;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #calciferBoi img{
+    background: #EFEFF4;
+    border-radius: 20px;
+    height: 48px;
+    width: 48px;
+  }
+  #infoContent span{
+    font-weight: bold;
+  }
+
+  #social{
+    /* height: 5%; */
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+  }
+
+  #social a:link{
+    color: #ce2029;
+    /* text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms; */
+  }
+  #social a:hover{
+    color: white;
+  }
+
+
+
