@@ -107,7 +107,7 @@ const myMember2 = {
 
 const myMember3 = {
     name: 'Anusha',
-    funFact: "I am from Washington DC!"
+    funFact: "I am obsessed with Netflix!"
 }
 
 const myMember4 = {
@@ -124,6 +124,18 @@ const myMember6 = {
     name: 'Shruthi',
     funFact: "Mountainclimbing rocks!"
 }
+
+document.getElementById("title").innerHTML = "COHORT CORGI";
+var str = "Motto:";
+document.getElementById("motto").innerHTML = str.bold() + " Woof! XOXO";
+document.getElementById("images").getElementsByClassName("caption")[0].innerHTML = "Fareeda";
+document.getElementById("images").getElementsByClassName("caption")[1].innerHTML = "Lyann";
+document.getElementById("images").getElementsByClassName("caption")[2].innerHTML = "Kimberly";
+document.getElementById("images").getElementsByClassName("caption")[3].innerHTML = "Anusha";
+document.getElementById("images").getElementsByClassName("caption")[4].innerHTML = "Rita";
+document.getElementById("images").getElementsByClassName("caption")[5].innerHTML = "Shruthi";
+
+
 
 
 console.log(myCohort)
