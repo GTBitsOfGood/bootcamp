@@ -7,7 +7,7 @@ var members = new Array();
 members.push(new Person("Sneh", "I'm left handed"));
 members.push(new Person("Ila", "I have an identical twin sister"));
 members.push(new Person("Ashwini", "I eat oatmeal every single morning"));
-members.push(new Person("Ruchi", "Ruchi's fact"));
+members.push(new Person("Ruchi", "I like yoga!"));
 
 
 var cohort = {
