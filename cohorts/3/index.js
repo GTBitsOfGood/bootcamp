@@ -107,11 +107,7 @@ const myMember2 = {
 
 const myMember3 = {
     name: 'Anusha',
-<<<<<<< HEAD
     funFact: "I am obsessed with Netflix!"
-=======
-    funFact: "I am obsessed with Netflix"
->>>>>>> 02491adf37b5b9c502c1939cf9c1dc25b12642e4
 }
 
 const myMember4 = {
@@ -129,6 +125,7 @@ const myMember6 = {
     funFact: "Mountainclimbing rocks!"
 }
 
+/** 
 document.getElementById("title").innerHTML = "COHORT CORGI";
 var str = "Motto:";
 document.getElementById("motto").innerHTML = str.bold() + " Woof! XOXO";
@@ -138,7 +135,7 @@ document.getElementById("images").getElementsByClassName("caption")[2].innerHTML
 document.getElementById("images").getElementsByClassName("caption")[3].innerHTML = "Anusha";
 document.getElementById("images").getElementsByClassName("caption")[4].innerHTML = "Rita";
 document.getElementById("images").getElementsByClassName("caption")[5].innerHTML = "Shruthi";
-
+*/
 
 
 
