@@ -30,7 +30,7 @@ document.getElementById("Carlo").onclick = function carloOnClick() {
 
 document.getElementById("Sahya").onclick = function sahyOnClick() {
     const fact = document.createElement("div");
-    const info = document.createTextNode('"I hate puppies"');
+    const info = document.createTextNode('"I know 13 different styles of dance!"');
     fact.appendChild(info);
     const name = document.getElementById("sahCont");
     const jasmine = document.getElementById("sahName");
