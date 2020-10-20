@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#bigcorgi {
+    width:150px;
+    height:150px;
+    grid-column: 1 / 2;
+}
+
+#title {
+    grid-column: 2 / 3;
+    color: lightblue;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+#motto {
+    grid-column: 1 / 3;
+    font-style: italic;
+    padding: 30px;
+    /* font-size: 40; */
+    margin: 0;
+}
+
+h2 {
+    color: orange;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+}
+
+#main-body {
+    grid-column: 1/3;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 180px;
+    padding: 8px;
+    border: 1px solid;
+    margin: 20px;
+}
+
+.caption {
+    text-align: center;
+    margin: 0;
+}
+
+.fact {
+    padding-top: 110px;
+    padding-left: 40px;
+    color: orange;
+    animation-name: funfact;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    transform: none;
+}
+
+.stm1 {
+    text-align: center;
+}
+
+@keyframes funfact {
+    from {color: orange;}
+    to {color: black;}
+    from {transform: none;}
+    to {transform: rotate(20deg);}
+}
