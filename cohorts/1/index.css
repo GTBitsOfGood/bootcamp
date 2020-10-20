@@ -24,7 +24,8 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  background:  #545473;
+  /* #6649b8; */
 }
 
 main {
@@ -358,6 +359,49 @@ CSS for Animation
   }
   #social a:hover{
     color: white;
+  }
+
+  /* Emily */
+  #If2{
+    position: absolute;
+    /* list-style-image: url("./assets/fire-solid.svg"); */
+    font-size: medium;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    padding-top: 0.25%;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: row;
+  }
+  #infoC2{
+    background-color:  #e5dce1;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    border-radius: 2%;
+  }
+  #infoI2 img{
+    border-radius: 5%;
+    max-width: 50%;
+    height: auto;
+    padding: 20px;
+    margin-right: 0%;
+  }
+  .infoCont2{
+    list-style-image: url("./assets/fire-solid.svg");
+    /* list-style: none; */
+    margin: 2.5%;
+    background-color: #f9d7b4;
+    padding: 20px;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-self: stretch;
+    flex-direction: column;
+    align-content: stretch;
   }
 
 
