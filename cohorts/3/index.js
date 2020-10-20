@@ -107,7 +107,11 @@ const myMember2 = {
 
 const myMember3 = {
     name: 'Anusha',
+<<<<<<< HEAD
     funFact: "I am obsessed with Netflix!"
+=======
+    funFact: "I am obsessed with Netflix"
+>>>>>>> 02491adf37b5b9c502c1939cf9c1dc25b12642e4
 }
 
 const myMember4 = {
