@@ -25,17 +25,18 @@ const myMember2 = {
     funFact: "I hate boba or any kind of tea"
 }
 
-const myMember2 = {
+const myMember3 = {
     name: 'Anusha',
     funFact: ""
 }
 
-const myMember2 = {
+const myMember4 = {
     name: 'Fareeda',
-    funFact: ""
+    funFact: "I might be obsessed with chocolate drinks"
 }
 
 
 console.log(myCohort)
 console.log(myMember1)
 console.log(myMember2)
+console.log(myMember4)
