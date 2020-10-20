@@ -69,3 +69,24 @@ h2 {
     text-align: center;
     margin: 0;
 }
+
+.fact {
+    padding-top: 110px;
+    padding-left: 40px;
+    color: orange;
+    animation-name: funfact;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    transform: none;
+}
+
+.stm1 {
+    text-align: center;
+}
+
+@keyframes funfact {
+    from {color: orange;}
+    to {color: black;}
+    from {transform: none;}
+    to {transform: rotate(20deg);}
+}
