@@ -1,5 +1,3 @@
-// Hi Rita! :-)
-
 console.log("hello")
 
 function Cohort(name, motto) {
@@ -8,7 +6,7 @@ function Cohort(name, motto) {
 }
 const myCohort = {
     name: 'Corgi',
-    motto: 'Woof! XOXO   HELLO',
+    motto: 'Woof! XOXO',
 
 }
 function Members(name, funFact) {
