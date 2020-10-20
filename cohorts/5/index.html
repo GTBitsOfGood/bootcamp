@@ -1,44 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <style>
-        
-    </style>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@700&display=swap"
+        rel="stylesheet">
+    <title>Cohort the Fifth Element</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <header>
-        <h1 style="color:darkslateblue;font-family:Georgia, 'Times New Roman', Times, serif">
-            Cohort <span style="color:goldenrod"> the Fifth </span> <span style="color:magenta">Element</span>
-        </h1>
-    </header>
- 
-    <h2>
-        TFE's Motto
-    </h2>
+    <header class="showcase">
+        <div class="showcase-top">
 
-    <p>
-            I am the gatekeeper of my own destiny, and I will have my glory day in the hot sun.
-    </p>
+            <a href="#" class="btn btn-rounded"></a>
+        </div>
+        <div class="showcase-content">
+            <h1>Cohort The Fifth Element</h1>
+            <p></p>
+            <a href="#" class="btn btn-xl">
+                <i class="fas fa-chevron-right btn-icon"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="flexCen">
+        <div class="about-section">
+            <h1 id="hmotto"></h1>
+            <p id="motto"></p>
+        </div>
+    </div>
+
+    <h2 style="text-align:center">Our Team</h2>
+
 
     <main>
-        <h2>
-            Cohort Names
-        </h2>
-
-        <div>
-            <ul>
-                <li><a href = "https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/TFE-Jasmine">Jasmine</a></li> 
-                <li><a href = "https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/TFE-Carlo">Carlo</a></li>
-                <li><a href = "https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/TFE-sahya">Sahya</a></li>
-                <li><a href = "https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/TFE-madeline">Madeline</a></li>
-            </ul>
+        <div class=”gallery”>
+            <h2>
+                Cohort Names
+            </h2>
         </div>
 
-        <img src="https://img.favpng.com/9/8/19/vector-building-hand-png-favpng-8H0tr25ZsxvQfTV8GvccWXAEY.jpg"/>
+        <div class="row">
+
+
+            <div class="column">
+                <div class="card">
+                    <img src="assets/Image from iOS.jpg" style="width:100%" alt="Madeline" id="Madeline">
+                    <div class="container" id="madCont">
+                        <h2 id="maddie">Madeline</h2>
+                        <p class="title"></p>
+                        <p></p>
+                        <p id="madName"><a href="https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/TFE-madeline"
+                                target="_blank"><button class="button">Contact</button></a></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="column">
+                <div class="card">
+                    <img src="assets/PBD_JasmineLi.jpg" style="width:100%" alt="Jasmine" id="Jasmine">
+                    <div class="container" id="jasCont">
+                        <h2>Jasmine</h2>
+                        <p class="title"></p>
+                        <p></p>
+                        <p id="jasName"><a href="https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/TFE-Jasmine"
+                                target="_blank"><button class="button">Contact</button></a></p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="column">
+                <div class="card">
+                    <img src="assets/Me_on_hike.png" style="width:100%" alt="Carlo" id="Carlo">
+                    <div class="container" id="carCont">
+                        <h2>Carlo</h2>
+                        <p></p>
+                        <p id="carName"><a href="https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/TFE-Carlo"
+                                target="_blank"><button class="button">Contact</button></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="column">
+                <div class="card">
+                    <img src="assets/IMG_9387.JPG" style="width:100%" id="Sahya">
+                    <div class="container" id="sahCont">
+                        <h2>Sahya</h2>
+                        <p></p>
+                        <p id="sahName"><a href="https://github.com/GTBitsOfGood/bootcamp/tree/fall-2020/TFE-sahya"
+                                target="_blank"><button class="button">Contact</button></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <footer>
-
+    <footer class="footer">
+        <div class="footer-content">
+            <img src="assets/background.jpg" class="fifth">
+            <img src="assets/200.gif" class="gif" />
+        </div>
+        <p>Thanks for stopping by! :)</p>
     </footer>
+    <script src="index.js"></script>
 </body>
-

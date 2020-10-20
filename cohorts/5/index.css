@@ -1,0 +1,365 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Arial', sans-serif;
+   -webkit-font-smoothing: antialiased; /*black*/
+   background: #000; /*black*/
+   color: #999; /*grey*/
+}
+
+ul {
+   list-style: none; 
+}
+
+h1, h2, h3, h4 {
+   color: #fff;
+}
+
+a { /*for anything links*/
+   color: #fff;
+   text-decoration: none;
+}
+
+p {
+   margin: 0.5rem 0;
+}
+
+img {
+   width: 100%; 
+}
+
+.showcase {
+   width: 100%;
+   height: 100vh; 
+   position: relative; 
+   background: url('../5/assets/logo.jpg') no-repeat center center/cover;
+}
+
+.showcase::after {  
+   content: ''; 
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;  
+   z-index: 1;  
+   background: rgba(0,0,0, 0.6);
+   box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000; 
+}
+
+.showcase-top {
+   position: relative; 
+   height: 90px; 
+   z-index: 2;  
+}
+
+.showcase-top img {
+   width: 30%;
+   position: absolute;  
+   top: 50%; 
+   left: 50%;
+   transform: translate(-50%, -30%); 
+}
+
+.showcase-top a{ 
+   position: absolute;
+   top: 50%;
+   right: 0;
+   transform: translate(-50%, -50%);
+}
+
+.showcase-content {
+   position: relative;
+   z-index: 2;
+   margin: auto;
+   display: flex; 
+   flex-direction: column;  
+   justify-content: center;
+   align-items: center; 
+   text-align: center;
+   margin-top: 9rem; 
+}
+
+.showcase-content h1 {
+   font-weight: 700;
+   font-size: 5.2rem;
+   line-height: 1.1;  
+   margin: 0 0 2rem;  
+
+}
+
+.showcase-content p {
+   text-transform: uppercase;
+   color: #fff;
+   font-weight: 400;
+   font-size: 1.9rem;
+   line-height: 1.25rem;
+   margin: 0 0 2rem;
+}
+
+a:link{
+   text-decoration: none;
+   color: black;
+ }
+ a:visited{
+   text-decoration: none;
+   color: black;
+ }
+ a:hover{
+   color: #CC978E;
+ }
+ 
+ html {
+   box-sizing: border-box;
+ }
+ 
+ body {
+   font-family: monospace;
+   font-size: 15px;
+ }
+ h1{
+   font-family: 'Montserrat', sans-serif;
+   letter-spacing: 3px;
+ }
+ p{
+   font-family: 'Domine', serif;
+ }
+ 
+.column {
+   display: inline-block;
+   vertical-align: top;
+   height: 100%;
+   width: 22%;
+   margin-bottom: 20px;
+   padding: 0 8px;
+   border-radius: 25px;
+   margin: 1%;
+   text-align: center;
+ 
+ }
+ 
+ img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 25px 25px 0px 0px;
+   object-position: 50% 50%;
+ }
+ 
+ .card {
+   box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.5);
+   border: 20px;
+   border-radius: 25px;
+   width:100%;
+   margin-bottom: 25px;
+   background-color: #000;
+ 
+ }
+
+ .card img {
+    height: 400px;
+ }
+ 
+ .about-section {
+   border-radius: 25px;
+   padding: 30px;
+   margin: 30px;
+   width: 800px;
+   text-align: center;
+   background-color: rgb(0,0,128);
+   /* background: linear-gradient(rgba(153, 197, 176, 0.5), rgba(153, 197, 176, 0.3)),
+     url(images/header-bg.jpg) center no-repeat; */
+   color: white;
+ }
+ .flexCen{
+   display: flex;
+   justify-content: center;
+ }
+ 
+ *, *:before, *:after {
+   box-sizing: inherit;
+ }
+ .container {
+   padding: 10px 20px;
+   text-align: center;
+   font-size: 15px;
+   color: white;
+ }
+ 
+.container::after, .row::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+
+ 
+.button {
+   border: none;
+   outline: 5px;
+   display: inline-block;
+   padding: 5px;
+   color: white;
+   background-color: gray;
+   text-align: center;
+   cursor: pointer;
+   width: 100%;
+ }
+ 
+ .button:hover {
+   background-color: #666;
+ }
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    color: purple;
+    font-family: 'Rubik';
+    background-image: url("https://ak.picdn.net/shutterstock/videos/1018518118/thumb/1.jpg");
+}
+.flex-container > h1 {
+    background-color: white;
+    padding: 10px;
+    border: 10px;
+    border-style: dotted;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+p {
+   display: flex;
+   justify-content: center;
+   flex-wrap: nowrap;
+}
+
+body {
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+ }
+ h1 {
+    text-align: center;
+ }
+ .outer-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+ }
+ .inner-grid {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+ }
+ .inner-grid img {
+    margin-top: 8px;
+    width: 100%;
+    padding: 10px;
+ }
+ 
+ @media screen and (max-width: 800px) {
+    .inner-grid {
+       flex: 50%;
+       max-width: 50%;
+    }
+ }
+ @media screen and (max-width: 600px) {
+    .inner-grid {
+       flex: 100%;
+       max-width: 100%;
+    }
+ }
+
+ul {
+    display: flex;
+}
+
+.footer-content {
+   position: relative;
+   z-index: 2;
+   margin: auto;
+   display: flex; /* everything currently lined up horizontally but we want vertically*/
+   flex-direction: column; /* make it verical*/
+   justify-content: center;
+   align-items: center; /*make everything go to center */
+   text-align: center;
+   margin-top: 9rem; /*move everything down */ 
+ }
+ .gif {
+   position: absolute;
+   display: flex;
+   max-width: 90%;
+   max-height: 60%;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);   
+   padding: 15px;
+ }
+
+.footer {
+	max-width: 100%;
+   margin: 1rem auto;
+   background-color: #141414;
+}
+
+.footer,
+.footer a {
+	color: #999;
+	font-size: 0.9rem;
+}
+
+.footer p {
+   padding: 50px;
+   position: relative;
+   font-family: sans-serif;
+   text-transform: uppercase;
+   font-size: 2em;
+   letter-spacing: 4px;
+   overflow: hidden;
+   background: linear-gradient(90deg, #000, #fff, #000);
+   background-repeat: no-repeat;
+   background-size: 80%;
+   animation: animate 5s linear infinite;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: rgba(255, 255, 255, 0);
+   
+}
+ 
+ @keyframes animate {
+   0% {
+     background-position: -500%;
+   }
+   100% {
+     background-position: 500%;
+   }
+ }
+
+.footer .footer-cols {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 2rem;
+}
+
+.footer li {
+	line-height: 1.9;
+}
+
+.footer .lang-select {
+	margin-top: 2rem;
+	color: #999;
+	background-color: #000;
+	background-image: none;
+	border: 1px solid #333;
+	padding: 1rem 1.2rem;
+	border-radius: 5px;
+}
